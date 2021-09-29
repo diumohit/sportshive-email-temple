@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Global varibales
+$bg-color:#F0F0F0;
+$font_family:'Lato',
+sans-serif;
+$font_size:20px;
+$color:#0097A7;
+
+
+body{
+    background-color: $bg-color;
+}
+
+// banner area start
+
+.___header_banner_image{
+
+    width: 100%;
+    height: 180px;
+}
+
+// banner area end 
+
+
+// logo area start
+
+.___logo1{
+    display: flex;
+    justify-content: space-around;
+
+    .___logo_sportshive{
+        width: 200px;
+        height: 110px;
+        border: 5px solid gray;
+        box-shadow: 2px 5px 10px $color;
+        margin-right: 500px;
+        z-index: 2;
+        margin-top: -40px;
+    }
+
+    .___logo_club{
+        width: 200px;
+        height: 110px;
+        border: 5px solid grey;
+        box-shadow: 2px 5px 10px $color;
+        z-index: 2;
+        margin-top: -40px;
+    }
+}
+
+
+// logo area end
+
+
+.___main_area{
+
+    padding: 100px 150px 150px 150px;
+
+}
+
+.___sender{
+
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+
+
+
+    h3{
+        color:$color;
+        font-size: $font_size;
+        font-family: $font_family;
+    }
+
+    h4{
+
+        font-size: $font_size;
+        font-family: $font_family;
+
+    }
+
+    p{
+        font-size: 18px;
+        font-family: $font_family;
+    }
+
+}
+
+.___receiver{
+
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+
+    h3{
+        color: $color;
+        color:$color;
+        font-size: $font_size;
+        font-family: $font_family;
+    }
+
+    h4{
+
+        font-size: $font_size;
+        font-family: $font_family;
+
+    }
+    
+}
+
+
+
+
+
+
+// footer banner area start
+
+.___footer_banner_image{
+
+    width: 100%;
+    height: 150px;
+}
+
+
+// footer banner area end 
+
+
+// media query start 
+
+@media screen and (max-width:900px) {
+
+
+    .___logo1{
+        display: flex;
+        justify-content: center;
+        margin:none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+
+        .___logo_sportshive{
+            margin-right:0;
+        }
+
+
+        .___logo_club{
+
+            margin-top: 20px;
+        }
+
+
+
+        }
+
+
+    
+}
+
+
+
+// media query end 

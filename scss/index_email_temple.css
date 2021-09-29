@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+.___header_banner_image {
+  width: 100%;
+  height: 180px;
+}
+
+.___logo1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.___logo1 .___logo_sportshive {
+  width: 200px;
+  height: 110px;
+  border: 5px solid gray;
+  -webkit-box-shadow: 2px 5px 10px #0097A7;
+          box-shadow: 2px 5px 10px #0097A7;
+  margin-right: 500px;
+  z-index: 2;
+  margin-top: -40px;
+}
+
+.___logo1 .___logo_club {
+  width: 200px;
+  height: 110px;
+  border: 5px solid grey;
+  -webkit-box-shadow: 2px 5px 10px #0097A7;
+          box-shadow: 2px 5px 10px #0097A7;
+  z-index: 2;
+  margin-top: -40px;
+}
+
+.___main_area {
+  padding: 100px 150px 150px 150px;
+}
+
+.___sender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.___sender h3 {
+  color: #0097A7;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.___sender h4 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.___sender p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+.___receiver {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.___receiver h3 {
+  color: #0097A7;
+  color: #0097A7;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.___receiver h4 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.___footer_banner_image {
+  width: 100%;
+  height: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .___logo1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 150px;
+  }
+  .___logo1 .___logo_sportshive {
+    margin-right: 0;
+  }
+  .___logo1 .___logo_club {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=index_email_temple.css.map */
